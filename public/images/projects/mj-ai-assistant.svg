@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+    <defs>
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#090B10" />
+        <stop offset="100%" stop-color="#151B25" />
+      </linearGradient>
+      <radialGradient id="glow" cx="80%" cy="20%" r="65%">
+        <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.32" />
+        <stop offset="100%" stop-color="#A78BFA" stop-opacity="0" />
+      </radialGradient>
+      <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.5" />
+        <stop offset="100%" stop-color="rgba(255,255,255,0.08)" />
+      </linearGradient>
+    </defs>
+    <rect width="800" height="450" fill="url(#bg)" />
+    <rect width="800" height="450" fill="url(#glow)" />
+    <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+      <line x1="0" y1="90" x2="800" y2="90" />
+      <line x1="0" y1="180" x2="800" y2="180" />
+      <line x1="0" y1="270" x2="800" y2="270" />
+      <line x1="0" y1="360" x2="800" y2="360" />
+      <line x1="160" y1="0" x2="160" y2="450" />
+      <line x1="320" y1="0" x2="320" y2="450" />
+      <line x1="480" y1="0" x2="480" y2="450" />
+      <line x1="640" y1="0" x2="640" y2="450" />
+    </g>
+    <rect x="44" y="44" width="712" height="362" rx="20" fill="#10141C" fill-opacity="0.88" stroke="url(#borderGrad)" stroke-width="1.5" />
+    <circle cx="80" cy="80" r="6" fill="#EF4444" fill-opacity="0.8" />
+    <circle cx="100" cy="80" r="6" fill="#F59E0B" fill-opacity="0.8" />
+    <circle cx="120" cy="80" r="6" fill="#10B981" fill-opacity="0.8" />
+    <text x="146" y="85" fill="#737F91" font-family="monospace" font-size="12">github.com/Husnain0018</text>
+    <rect x="76" y="130" width="370" height="32" rx="16" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.35" />
+    <text x="96" y="151" fill="#F5F7FC" font-family="sans-serif" font-weight="600" font-size="12">Gemini API • React 19 • Express • SQLite</text>
+    <text x="76" y="235" fill="#F5F7FC" font-family="Space Grotesk, sans-serif" font-weight="800" font-size="38">MJ & Zoya AI Assistant</text>
+    <text x="76" y="278" fill="#A5B0C0" font-family="Inter, sans-serif" font-weight="500" font-size="19">Real-Time Gemini AI Task & Voice Assistant</text>
+    <text x="76" y="358" fill="#A78BFA" font-family="monospace" font-weight="600" font-size="14">Ali Husnain • Verified Production Project</text>
+  </svg>

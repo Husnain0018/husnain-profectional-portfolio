@@ -1,0 +1,17 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ah-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C8CFF" />
+      <stop offset="50%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#55D6BE" />
+    </linearGradient>
+    <linearGradient id="ah-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(108, 140, 255, 0.5)" />
+      <stop offset="100%" stop-color="rgba(85, 214, 190, 0.3)" />
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="45" height="45" rx="13" fill="#090B10" stroke="url(#ah-border)" stroke-width="1.5" />
+  <path d="M13 34L20 14H24L31 34H26.8L25.1 29H18.9L17.2 34H13ZM19.9 25.8H24.1L22 19.4L19.9 25.8Z" fill="url(#ah-grad)" />
+  <path d="M29 14H33V34H29V14Z" fill="#F5F7FC" opacity="0.9" />
+  <path d="M24 23H33V26H24V23Z" fill="url(#ah-grad)" />
+</svg>
