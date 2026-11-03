@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/layout/ThemeProvider';
 import { getPortfolioData } from '@/lib/db';
+import DograhWidget from '@/components/DograhWidget';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -70,6 +71,7 @@ export default async function RootLayout({
         <ThemeProvider defaultTheme={data.appearance.default_theme || 'dark'}>
           {children}
         </ThemeProvider>
+        <DograhWidget />
       </body>
     </html>
   );
